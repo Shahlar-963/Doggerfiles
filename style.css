@@ -45,6 +45,7 @@ body {
   color: #a79b9b;
   margin: 20px 0 40px;
   font-size: 20px;
+  line-height: 1.4;
 }
 #welcome .textbox h2, #welcome .textbox h6 {
   margin: 15px 0;
@@ -53,6 +54,7 @@ body {
   font-size: 33px;
 }
 #welcome .textbox h6 {
+  line-height: 1.4;
   font-size: 18px;
 }
 #welcome .textbox .btn {
@@ -76,8 +78,17 @@ body {
   #welcome .textbox {
     padding: 5px;
   }
+  #welcome .textbox h3, #welcome .textbox h6 {
+    font-size: 28px;
+  }
+  #welcome .textbox .btn {
+    margin: 15px 0;
+  }
+  #welcome .textbox .btn h5 {
+    font-size: 28px;
+  }
   #welcome .imgbox {
-    margin-bottom: 15px;
+    margin: 30px 0 15px;
   }
 }
 
