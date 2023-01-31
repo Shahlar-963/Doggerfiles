@@ -216,6 +216,24 @@ body {
   font-size: 30px;
   margin: 0 0 10px;
 }
+@media screen and (max-width: 992px) {
+  #ourtrainers h1 {
+    font-size: 45px;
+  }
+  #ourtrainers h3, #ourtrainers h4 {
+    font-size: 24px;
+  }
+  #ourtrainers .box .textbox h2 {
+    font-size: 30px;
+  }
+  #ourtrainers .box .textbox ul li {
+    padding: 20px;
+    width: 50px;
+  }
+  #ourtrainers .box .textbox ul li .icon i {
+    font-size: 20px;
+  }
+}
 
 #pricingtable {
   padding: 40px 0;
