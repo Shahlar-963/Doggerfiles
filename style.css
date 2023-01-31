@@ -313,6 +313,40 @@ body {
 #pricingtable .PREMIUM-color .btn {
   background-color: #6c9b9c;
 }
+@media screen and (max-width: 992px) {
+  #pricingtable .textbox .icon i {
+    font-size: 40px;
+  }
+  #pricingtable .textbox h1 {
+    font-size: 45px;
+  }
+  #pricingtable .textbox h5 {
+    font-size: 25px;
+  }
+  #pricingtable .box {
+    padding: 24px 13px;
+  }
+  #pricingtable .box h2 {
+    font-size: 30px;
+  }
+  #pricingtable .box h3 {
+    font-size: 35px;
+  }
+  #pricingtable .box li h4 {
+    font-size: 20px;
+    margin: 0 0 0 10px;
+  }
+  #pricingtable .box .btn {
+    padding: 10px 35px;
+    margin: 30px 0 0;
+    border-radius: 30px;
+    background-color: #3b3b3b;
+    color: white;
+  }
+  #pricingtable .box .btn h4 {
+    font-size: 23px;
+  }
+}
 @media screen and (max-width: 768px) {
   #pricingtable .box {
     margin-bottom: 20px;
