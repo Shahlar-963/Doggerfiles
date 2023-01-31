@@ -23,6 +23,9 @@ body {
   width: 500px;
 }
 @media screen and (max-width: 992px) {
+  #carefor .textbox {
+    text-align: center;
+  }
   #carefor .textbox h4 {
     margin-bottom: 15px;
   }
