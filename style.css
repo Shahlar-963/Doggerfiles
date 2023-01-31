@@ -127,7 +127,7 @@ body {
   color: #5b5858;
 }
 #aboutus .imgbox {
-  width: 450px;
+  width: 336px;
 }
 #aboutus .bigicon {
   color: #789b9b;
@@ -138,7 +138,31 @@ body {
 }
 @media screen and (max-width: 992px) {
   #aboutus .textbox {
+    padding: 0;
     margin-bottom: 20px;
+  }
+  #aboutus .textbox h1 {
+    font-size: 45px;
+  }
+  #aboutus .textbox h3, #aboutus .textbox p {
+    font-size: 26px;
+  }
+  #aboutus .textbox li {
+    padding: 20px 0 0 0;
+  }
+  #aboutus .textbox li .icon {
+    padding: 0 15px 0 0;
+  }
+  #aboutus .textbox li .icon i {
+    font-size: 25px;
+  }
+  #aboutus .textbox li h4 {
+    font-size: 25px;
+  }
+  #aboutus .imgbox {
+    display: flex;
+    align-self: center;
+    height: 500px;
   }
 }
 
