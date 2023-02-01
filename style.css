@@ -403,14 +403,34 @@ body {
   color: #8eafae;
 }
 @media screen and (max-width: 992px) {
-  #questions .wid {
-    width: 100%;
+  #questions h1 {
+    font-size: 44px;
+    margin: 15px 0;
   }
   #questions h3 {
+    font-size: 25px;
     margin-bottom: 15px;
+  }
+  #questions .textbox {
+    padding: 0;
+  }
+  #questions .textbox h2, #questions .textbox h4 {
+    font-size: 25px;
+  }
+  #questions .textbox .minibox h2 {
+    margin: 0 0 0 10px;
+  }
+  #questions .textbox p {
+    font-size: 25px;
+  }
+  #questions .icon i {
+    font-size: 30px;
   }
   #questions .imgbox {
     margin-top: 20px;
+  }
+  #questions .bigicon i {
+    font-size: 40px;
   }
 }
 
