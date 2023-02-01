@@ -543,4 +543,26 @@ body {
 #ourservices .bigicon i {
   font-size: 30px;
   margin: 0 0 20px;
+}
+@media screen and (max-width: 992px) {
+  #ourservices {
+    font-size: 45px;
+  }
+  #ourservices h3 {
+    font-size: 30px;
+    margin: 10px 0 40px;
+  }
+  #ourservices .textbox {
+    padding: 0;
+    margin-bottom: 35px;
+  }
+  #ourservices .textbox h2 {
+    font-size: 32px;
+  }
+  #ourservices .textbox h3 {
+    margin: 15px 0 0;
+  }
+  #ourservices .textbox .icon {
+    font-size: 70px;
+  }
 }/*# sourceMappingURL=style.css.map */
